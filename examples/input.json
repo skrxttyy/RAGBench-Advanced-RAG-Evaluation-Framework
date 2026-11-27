@@ -1,0 +1,46 @@
+{
+  "dataset": "synthetic policy questions",
+  "k": 2,
+  "samples": [
+    {
+      "id": "q1",
+      "relevant": [
+        "returns"
+      ],
+      "retrieved": [
+        "shipping",
+        "returns"
+      ],
+      "answer": "Returns within thirty days",
+      "reference": "Returns within thirty days",
+      "citations": [
+        "returns"
+      ]
+    },
+    {
+      "id": "q2",
+      "relevant": [
+        "refunds"
+      ],
+      "retrieved": [
+        "refunds",
+        "shipping"
+      ],
+      "answer": "Five days",
+      "reference": "Five business days",
+      "citations": [
+        "refunds"
+      ]
+    },
+    {
+      "id": "q3",
+      "relevant": [],
+      "retrieved": [
+        "shipping"
+      ],
+      "answer": "",
+      "reference": "",
+      "citations": []
+    }
+  ]
+}

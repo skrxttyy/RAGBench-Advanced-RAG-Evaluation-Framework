@@ -1,0 +1,46 @@
+{
+  "dataset": "synthetic policy questions",
+  "samples": 3,
+  "retrieval_samples": 2,
+  "answer_f1": 0.9333333333333332,
+  "exact_match": 0.6666666666666666,
+  "retrieval": {
+    "recall": 1.0,
+    "mrr": 0.75,
+    "ndcg": 0.8154648767857288
+  },
+  "per_sample": [
+    {
+      "id": "q1",
+      "retrieval": {
+        "recall": 1.0,
+        "ndcg": 0.6309297535714575,
+        "mrr": 0.5
+      },
+      "answer_f1": 1.0,
+      "exact_match": true,
+      "citation_id_precision": 1.0,
+      "correct_abstention": null
+    },
+    {
+      "id": "q2",
+      "retrieval": {
+        "recall": 1.0,
+        "ndcg": 1.0,
+        "mrr": 1.0
+      },
+      "answer_f1": 0.8,
+      "exact_match": false,
+      "citation_id_precision": 1.0,
+      "correct_abstention": null
+    },
+    {
+      "id": "q3",
+      "retrieval": null,
+      "answer_f1": 1.0,
+      "exact_match": true,
+      "citation_id_precision": null,
+      "correct_abstention": true
+    }
+  ]
+}
